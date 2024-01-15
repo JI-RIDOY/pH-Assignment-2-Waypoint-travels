@@ -1,0 +1,133 @@
+/* mullish font  */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px;
+}
+.icon-img{
+    width: 48px;
+}
+.center-image{
+    display: flex;
+    align-items: center;
+}
+.nav-title{
+    color: #131318;
+font-family: Mulish;
+font-size: 36px;
+font-weight: 800;
+margin-left: 25px;
+}
+.travel-color{
+    color: #FF5400;
+font-size: 36px;
+font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    
+}
+.home{
+    color: #FF5400;
+font-size: 18px;
+font-weight: 700;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    font-size: 18px;
+    color: var(--Dark-02, #424247);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+li > a{
+    text-decoration: none;
+}
+.banner{
+    background-image: linear-gradient( rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    text-align: center;
+    padding: 170px;
+    background-size: cover;
+     margin: 0 auto;
+     width: 1170px;
+}
+.big-container{
+    color: #FFF;
+font-size: 64px;
+font-weight: 800;
+}
+.small-container{
+    color: #FFF;
+font-size: 16px;
+font-weight: 400;
+width: 676px;
+margin: 0 auto;
+}
+.input-container{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    text-align: center;
+    justify-content: center;
+    display: inline-flex;
+    padding: 20px;
+    gap: 24px;
+    margin-top: 25px;
+}
+.input-size{
+    padding: 20px;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+#btn-color{
+    color: #FFF;
+    border-radius: 8px;
+background: #FF5400;
+width: 174px;
+margin: 0 auto;
+}
+/* Our-Popular-Tours  */
+.Our-Popular-Tours{
+    display: flex;
+    margin-top: 50px;
+
+}
+.big-black-container{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.small-des{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+width: 577px;
+}
+.small-des-li{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+width: 525px;
+}
+.small-des-end{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+width: 530px;
+}
+/* responsive styles  */
+/* mobile device  */
+@media screen and (max-width: 576px) {
+    
+}
